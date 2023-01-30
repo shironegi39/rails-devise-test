@@ -1,0 +1,6 @@
+<h1>Homes#mypage</h1>
+<%= current_user.name %><br>
+<%= current_user.email %><br>
+<p>ログインできてるで</p>
+
+<%= button_to 'ログアウト', destroy_user_session_path, method: :delete %>
